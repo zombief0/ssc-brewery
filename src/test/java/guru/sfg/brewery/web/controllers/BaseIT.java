@@ -23,7 +23,7 @@ public abstract class BaseIT {
 
     protected MockMvc mockMvc;
 
-    @MockBean
+    /*@MockBean
     BeerRepository beerRepository;
 
     @MockBean
@@ -36,7 +36,7 @@ public abstract class BaseIT {
     CustomerRepository customerRepository;
 
     @MockBean
-    BeerService beerService;
+    BeerService beerService;*/
 
     @BeforeEach
     public void setup() {
